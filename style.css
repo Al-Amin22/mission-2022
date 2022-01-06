@@ -1,13 +1,20 @@
 body {
   margin: 0px;
+  font-family: "Poppins", sans-serif;
+  color: #3e3e3e;
+}
+p {
+  font-size: 18px;
+  margin-bottom: 40px;
 }
 h1 {
   font-size: 50px;
 }
 /*WELCOME PART START*/
 .flexible-unit {
+  padding: 0 130px;
   display: flex;
-  padding-left: 10px;
+  justify-content: space-between;
 }
 #head-text {
   border-left: 5px solid rgba(189, 32, 45, 0.767);
@@ -21,6 +28,16 @@ span {
 }
 .half-width img {
   width: 50%;
+  margin-left: 10%;
+}
+.small {
+  width: 35%;
+}
+.small img {
+  width: 100%;
+}
+.large {
+  width: 60%;
 }
 .link-button {
   text-decoration: none;
@@ -36,12 +53,11 @@ span {
   background-image: url(img/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
+  padding: 100px 130px;
 }
 .overview-item {
-  width: 40%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 15px;
+  width: 25%;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
 }
@@ -73,11 +89,6 @@ span {
 /*OVERVIEW PART END*/
 
 /*WORKLINE PART START*/
-.dream {
-  background-image: url(img/dream-bg.png);
-  background-repeat: no-repeat;
-  background-position: right;
-}
 
 .link-button {
   text-decoration: none;
@@ -86,8 +97,10 @@ span {
   border-radius: 5px;
   color: white;
   font-weight: 600;
+  display: inline-block;
 }
 #bg1 {
+  padding: 0 130px;
   background-image: url(images/shapes/shape-1.png);
   background-repeat: no-repeat;
   background-size: 200px;
